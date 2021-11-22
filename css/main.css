@@ -1,0 +1,13 @@
+html {
+  box-sizing: border-box;
+  font-family: 'Overpass', sans-serif;  line-height: 1.5;
+  color: #fff;
+  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
