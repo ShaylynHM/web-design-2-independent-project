@@ -1,6 +1,7 @@
 html {
   box-sizing: border-box;
-  font-family: "Overpass", sans-serif; line-height: 1.5;
+  font-family: "Overpass", sans-serif;
+  line-height: 1.5;
   color: #fff;
   -webkit-text-size-adjust: 100%;
   text-size-adjust: 100%;
@@ -12,16 +13,12 @@ html {
   box-sizing: inherit;
 }
 
-header {
-
+body {
+  margin: 0;
+  max-width:
 }
 
-.home-banner {
-  max-width: inherit;
-}
-h1 {
-}
-
-p {
-
+.home-masthead {
+  display:block;
+  width: 100%;
 }
