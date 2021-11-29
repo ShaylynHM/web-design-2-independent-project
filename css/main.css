@@ -2,7 +2,7 @@ html {
   box-sizing: border-box;
   font-family: "Overpass", sans-serif;
   line-height: 1.5;
-  color: #fff;
+
   -webkit-text-size-adjust: 100%;
   text-size-adjust: 100%;
 }
@@ -13,12 +13,12 @@ html {
   box-sizing: inherit;
 }
 
-body {
-  margin: 0;
-  max-width:
+h1, h2 {
+    color: #fff;
 }
 
-.home-masthead {
-  display:block;
-  width: 100%;
-}
+p {
+  background-color: #DADCE3;
+   display: grid;
+   grid-template-columns: repeat(2, 1fr);
+ }
