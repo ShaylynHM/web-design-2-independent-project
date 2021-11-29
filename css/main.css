@@ -13,12 +13,24 @@ html {
   box-sizing: inherit;
 }
 
-h1, h2 {
-    color: #fff;
+.header {
+  padding: 60px;
+  text-align: center;
+  background: #DADCE3;
+  color: white;
+  font-size: 30px;
 }
 
-p {
+h1 {
+  font-size: 5rem;
+}
+
+h1, h2 {
+  color: #fff;
+}
+
+main p {
   background-color: #DADCE3;
-   display: grid;
-   grid-template-columns: repeat(2, 1fr);
- }
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
