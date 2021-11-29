@@ -12,6 +12,16 @@ html {
   box-sizing: inherit;
 }
 
+header {
+
+}
+
+.home-banner {
+  max-width: inherit;
+}
 h1 {
-text-align: center;
+}
+
+p {
+
 }
