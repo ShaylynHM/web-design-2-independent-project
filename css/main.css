@@ -134,7 +134,7 @@ h2 {
   margin: 0;
 }
 
-main {
+.home-main {
   display: flex;
   background-color: #fff;
 }
@@ -143,7 +143,70 @@ main p {
   margin: .5em 1.5em;
 }
 
+section {
+  display: flex;
+  justify-content: center;
+  align-items: stretch;
+  flex-wrap: wrap;
+  margin: 2em;
+}
+
+.section-header {
+  text-shadow: none;
+  background-color: #DADCE3;
+  color: #0C090D;
+  text-align: center;
+  /* margin-bottom: 0; */
+  padding: 4em;
+}
+
+.product-cards {
+  display: flex;
+  justify-content: center;
+  align-items: stretch;
+  flex-wrap: wrap;
+  max-width: 150px;
+  max-height: 150px;
+  margin: 2em;
+  padding: 0;
+}
+
+/* .product-menu {
+  display: flex;
+  justify-content: center;
+  align-items: stretch;
+  flex-wrap: wrap;
+  /* display: flex;
+  flex-direction: column;
+  align-content: center; */
+/* display: grid;
+grid-template-columns: 1fr 1fr 1fr 1fr; */
+} */
+
+.product-cards h3 {
+  color: #4D2773;
+  text-align: center;
+  font-weight: bolder;
+  margin-bottom: 0;
+}
+
+.price {
+  color: #8D68A6;
+  text-align: center;
+  font-style: normal;
+  font-weight: bolder;
+  margin-top: 0;
+}
+
+.flavour-profile {
+  color: #0C090D;
+  margin: auto 0;
+  text-align: center;
+}
+
 footer {
+  display: flex;
+  justify-content: flex-start;
   background-color: #DADCE3;
   margin: 1em 0;
   padding: 1.5em;
