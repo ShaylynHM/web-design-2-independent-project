@@ -33,6 +33,21 @@ header {
   position: relative;
 }
 
+.button1:hover {
+  background-color: #DADCE3;
+  color: white;
+}
+
+.button2:hover {
+  background-color: #DADCE3;
+  color: white;
+}
+
+.button3:hover {
+  background-color: #DADCE3;
+  color: white;
+}
+
 .intro {
   text-align: center;
   grid-column: 1 / -1;
