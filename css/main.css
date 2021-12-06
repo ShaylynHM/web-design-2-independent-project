@@ -49,12 +49,17 @@ nav ul {
   flex-direction: row;
   justify-content: flex-end;
   list-style-type: none;
+  /* text-shadow: 3px 3px 4px #000; */
 }
 
 nav a {
   text-decoration: none;
   color: #fff;
   padding: 0 1em;
+  background-color: #4D2773;
+  border-radius: 5px;
+  padding: .5em;
+  margin: .5em;
 }
 
 .spread {
@@ -63,7 +68,7 @@ nav a {
   padding: 1.5em;
   text-align: center;
   font-size: 1.5rem;
-  margin: 0;
+  margin: .5em 0;
 }
 
 .div {
@@ -82,7 +87,7 @@ background-position: center;
 }
 
 a:hover {
-  color: #4D2773;
+  color: #241D48;
 }
 
 h1 {
@@ -90,6 +95,7 @@ h1 {
   color: #fff;
   text-align: center;
   margin: 0;
+  text-shadow: 3px 3px 4px #000;
 }
 
 h2 {
@@ -98,6 +104,7 @@ h2 {
   text-align: center;
   margin-bottom: 2em;
   margin-top: 0;
+  text-shadow: 3px 3px 4px #000;
 }
 
 .spread {
@@ -106,21 +113,23 @@ h2 {
 }
 
 .arlene-with-spoons {
-  display: grid;
-  grid-template-columns: 2;
-  grid-column: 2;
+  display: flex;
   max-width: 370px;
-  margin-left: 0;
+  max-height: 468px;
+  margin: 0;
+}
+
+main {
+  display: flex;
+  background-color: #fff;
 }
 
 main p {
-  margin: 1.5;
-  background-color: #DADCE3;
-  display: block;
-  columns: 2;
-  padding: 1.5em;
+  margin: .5em 1.5em;
 }
 
 footer {
   background-color: #DADCE3;
+  margin: 1em 0;
+  padding: 1.5em;
 }
